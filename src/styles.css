@@ -1,5 +1,5 @@
 body {
-  background-color: #e6ebf1;
+  background-color: #edf1f6;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -9,22 +9,18 @@ main {
 
 aside {
   position: fixed;
-  margin: 0;
-  padding: 0;
   width: 180px;
   height: 100%;
-
   background-color: #e3e9f4;
   border-right: 1px solid rgba(15, 23, 42, 0.25);
 }
 
 .container {
   text-align: center;
-  margin-left: 200px;
+  margin-left: 220px;
   padding-left: 60px;
-
   width: 100%;
-  max-width: 760px;
+  max-width: 800px;
   align-items: center;
 }
 
@@ -37,17 +33,18 @@ header h1 {
   font-weight: 780;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin: 0;
+  margin-top: 10px;
 }
 header p {
-  margin-top: 50px;
+  margin-top: 70px;
   font-size: 28px;
   line-height: 1.5;
-  font-weight: 530;
+  font-weight: 540;
   color: #334155;
 }
 
 aside p {
+  margin-top: 20px;
   font-size: 15px;
   color: #475569;
   margin-bottom: 5px;
@@ -60,12 +57,23 @@ aside ul {
   color: #1a1533;
   font-weight: 500;
 }
+.clear-history-button {
+  margin-top: 480px;
+  padding: 8px 14px;
+  font-size: 15px;
+  color: #1a1533;
+  background-color: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.5);
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 
 form {
-  margin-top: 10px;
-  padding: 15px;
+  margin-top: 30px;
+  padding: 10px;
+  color: #1a1533;
   background-color: #ffffff;
-  border-radius: 25px;
+  border-radius: 30px;
   display: flex;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
@@ -74,11 +82,49 @@ form {
   padding: 5px;
   border: none;
   font-size: 15px;
-  color: #6b7280;
+  color: #1a1533;
   width: 80%;
   outline-style: none;
 }
 
+.submit-button {
+  background-color: #edf1f6;
+  color: #1a1533;
+  border: 1px solid rgba(15, 23, 42, 0.25);
+  border-radius: 20px;
+  padding: 10px 24px;
+}
+
+.try-these-prompts {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.try-these-prompts p {
+  font-size: 20px;
+  font-weight: 500px;
+  color: #1a1533;
+  margin-bottom: 12px;
+}
+
+.try-these-prompts button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 10px;
+  padding: 14px 16px;
+  border: 1px solid rgba(15, 23, 42, 0.3);
+  border-radius: 25px;
+  color: #1a1533;
+  font-size: 15px;
+  background-color: #f9f7f3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
 footer {
+  margin-top: 80px;
   text-align: center;
+  color: #565d6a;
+  font-size: 14px;
 }

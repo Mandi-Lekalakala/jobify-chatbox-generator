@@ -13,7 +13,7 @@
         <ul>
           <li>No Recent Generations</li>
         </ul>
-        <button id="clear-history">Clear</button>
+        <button class="clear-history-button" id="clear-history">Clear</button>
       </aside>
 
       <div class="container">
@@ -22,11 +22,7 @@
           <p>How can I help you with your job application today?</p>
         </header>
         <section>
-          <div>
-            The poem will go here
-            <br />
-            What a great day
-          </div>
+          <div id="outPutForm">.</div>
           <form>
             <input
               type="text"
@@ -36,10 +32,10 @@
               autocomplete="off"
               class="instructions"
             />
-            <input type="submit" value="Generate ➤" />
+            <input type="submit" value="Generate ➤" class="submit-button" />
           </form>
 
-          <div id="try-these">
+          <div class="try-these-prompts" id="try-these">
             <p>Try these:</p>
             <button>Generate a simple CV</button>
             <button>Write a cover letter</button>
@@ -49,17 +45,15 @@
       </div>
     </main>
     <footer>
-      This was coded by
-      <a href="https://github.com/Mandi-Lekalakala" target="_blank"
-        >Mandi Lekalakala</a
-      >
-      and is open-sourced on
+      © 2026
+      <a href="https://github.com/Mandi-Lekalakala" target="_blank">Mandi L</a>,
+      is open-sourced on
       <a
         href="https://github.com/Mandi-Lekalakala/jobify-chatbox-generator.git"
         target="_blank"
         >Github</a
       >
-      and is hosted on
+      & hosted on
       <a href="http://" target="_blank">Netlify</a>
     </footer>
     <script src="src/script.js"></script>
