@@ -7,46 +7,47 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>Jobify</h1>
-      <p>Your job application, simplified</p>
-    </header>
-
     <main>
       <aside>
-        <h2>Recent</h2>
-        <ul id="recent-list">
-          <li>No recent generations</li>
+        <p>Recent▾</p>
+        <ul>
+          <li>No Recent Generations</li>
         </ul>
-        <button id="clear-history" type="button">Clear</button>
+        <button id="clear-history">Clear</button>
       </aside>
 
-      <section>
-        <div>
-          The poem will go here
-          <br />
-          What a great day
-        </div>
-        <form>
-          <input
-            type="text"
-            placeholder="Describe what you need (e.g. CV, cover letter)"
-            autofocus
-            required
-            autocomplete="off"
-          />
-          <input type="submit" value="Generate ➤" />
-        </form>
+      <div class="container">
+        <header>
+          <h1>Jobify</h1>
+          <p>How can I help you with your job application today?</p>
+        </header>
+        <section>
+          <div>
+            The poem will go here
+            <br />
+            What a great day
+          </div>
+          <form>
+            <input
+              type="text"
+              placeholder="Describe what you need — for example, a cover letter or CV."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+            />
+            <input type="submit" value="Generate ➤" />
+          </form>
 
-        <div id="try-these">
-          <p>Try these:</p>
-          <button type="button">Generate a simple CV</button>
-          <button type="button">Write a cover letter</button>
-          <button type="button">Improve my CV bullet points</button>
-        </div>
-      </section>
+          <div id="try-these">
+            <p>Try these:</p>
+            <button>Generate a simple CV</button>
+            <button>Write a cover letter</button>
+            <button>Improve my CV bullet points</button>
+          </div>
+        </section>
+      </div>
     </main>
-
     <footer>
       This was coded by
       <a href="https://github.com/Mandi-Lekalakala" target="_blank"
@@ -61,7 +62,6 @@
       and is hosted on
       <a href="http://" target="_blank">Netlify</a>
     </footer>
-
     <script src="src/script.js"></script>
   </body>
 </html>
