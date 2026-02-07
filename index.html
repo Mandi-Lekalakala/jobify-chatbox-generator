@@ -21,22 +21,32 @@
         <button id="clear-history" type="button">Clear</button>
       </aside>
 
-      <div>
-        The poem will go here
-        <br />
-        What a great day
-      </div>
-      <form>
-        <input
-          type="text"
-          placeholder="Describe what you need (e.g. CV, cover letter)"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <section>
+        <div>
+          The poem will go here
+          <br />
+          What a great day
+        </div>
+        <form>
+          <input
+            type="text"
+            placeholder="Describe what you need (e.g. CV, cover letter)"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <input type="submit" value="Generate ➤" />
+        </form>
+
+        <div id="try-these">
+          <p>Try these:</p>
+          <button type="button">Generate a simple CV</button>
+          <button type="button">Write a cover letter</button>
+          <button type="button">Improve my CV bullet points</button>
+        </div>
+      </section>
     </main>
+
     <footer>
       This was coded by
       <a href="https://github.com/Mandi-Lekalakala" target="_blank"
@@ -51,6 +61,7 @@
       and is hosted on
       <a href="http://" target="_blank">Netlify</a>
     </footer>
+
     <script src="src/script.js"></script>
   </body>
 </html>
