@@ -43,15 +43,3 @@ The project focuses on user experience, prompt guidance, and frontend logic — 
 - Backend integration for secure API calls
 - Option to export or copy generated content
 
-
-## 📸 Preview
-### Initial view
-![Jobify initial screen](images/Screenshot 2026-02-09 041707.png)
-
-### Prompt suggestions
-![Prompt loading](images/Screenshot 2026-02-09 041756.png)
-
-### Generated result
-![Jobify AI output](images/Screenshot 2026-02-09 041923.png)
-
-
