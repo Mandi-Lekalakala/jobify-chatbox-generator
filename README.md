@@ -47,7 +47,7 @@ The project focuses on user experience, prompt guidance, and frontend logic — 
 <div>
 <p>📸 Project Preview</p>
 <p align="center">
-  <img src="images/jobify-web-app"  />
+  <img src="images/jobify-web-app.png" width=30% />
   <img src="images/prompt-loading.png" width="30%" />
   <img src="images/ai-output.png" width="30%" />
 </p>
