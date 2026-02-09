@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jobify – Your job application, simplified</title>
@@ -11,16 +12,17 @@
     <main>
       <aside>
         <p>Recent▾</p>
-        <ul>
+        <ul id="recent-list">
           <li>No Recent Generations</li>
         </ul>
-        <button class="clear-history-button" id="clear-history">Clear</button>
       </aside>
 
       <div class="container">
         <header>
           <h1>Jobify</h1>
-          <p>How can I help you with your job application today?</p>
+          <p id="header-description">
+            How can I help you with your job application today?
+          </p>
         </header>
         <section>
           <div id="outPutInfo"></div>
@@ -32,15 +34,16 @@
               required
               autocomplete="off"
               class="instructions"
+              id="user-instructions"
             />
             <input type="submit" value="Generate ➤" class="submit-button" />
           </form>
 
           <div class="try-these-prompts" id="try-these">
             <p>Try these:</p>
-            <button>Generate a simple CV</button>
-            <button>Write a cover letter</button>
-            <button>Improve my CV bullet points</button>
+            <button type="button">Generate a simple CV template.</button>
+            <button type="button">Write a cover letter.</button>
+            <button type="button">Improve my CV bullet points.</button>
           </div>
         </section>
       </div>

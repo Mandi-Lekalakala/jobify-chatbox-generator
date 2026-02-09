@@ -18,7 +18,9 @@ aside {
 }
 /* #e3e9f4 */
 .container {
-  text-align: center;
+  text-align: justify;
+  line-height: 1.5;
+  color: #000000;
   margin-left: 220px;
   padding-left: 60px;
   width: 100%;
@@ -58,8 +60,9 @@ aside ul {
   padding-left: 0px;
   color: #100c21;
   font-weight: 500;
+  margin-bottom: 10px;
 }
-.clear-history-button {
+/* .clear-history-button {
   margin-top: 480px;
   padding: 8px 14px;
   font-size: 15px;
@@ -67,7 +70,7 @@ aside ul {
   background-color: #ffffff;
   border: 1px solid rgba(15, 23, 42, 0.5);
   border-radius: 30px;
-}
+} */
 
 form {
   margin-top: 60px;
