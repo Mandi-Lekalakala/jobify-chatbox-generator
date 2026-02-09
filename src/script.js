@@ -45,6 +45,7 @@ function generatePoem(event) {
     "You help users write simple CVs and cover letters. " +
     "Keep responses short, clear, and professional. " +
     "Always add a Heading " +
+    "Start a new sentence on a new line" +
     "Return ONLY HTML. No markdown. No bullet symbols. " +
     "Use <br> for every new line. " +
     "Use simple, clear, professional wording. " +
