@@ -27,6 +27,8 @@ function addToRecent(text) {
 
   let preview = text.length > 35 ? text.slice(0, 35) + "…" : text;
 
+  preview = preview.charAt(0).toUpperCase() + preview.slice(1);
+
   if (recentList.textContent.includes("No Recent Generations")) {
     recentList.innerHTML = "";
   }
