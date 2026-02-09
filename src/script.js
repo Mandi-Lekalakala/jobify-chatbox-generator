@@ -46,7 +46,7 @@ function generatePoem(event) {
     "Keep responses short, clear, and professional. " +
     "Return ONLY HTML. No markdown. No bullet symbols. " +
     "Use <br> for every new line. " +
-    "Use short, clear, professional wording. " +
+    "Use simple, clear, professional wording. " +
     "End with: Do you need any more help?";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
@@ -56,6 +56,10 @@ function generatePoem(event) {
   headerDescription.classList.add("hidden-buttons");
   let tryTheseElement = document.querySelector("#try-these");
   tryTheseElement.classList.add("hidden-buttons");
+
+  let generatingElement = document.querySelector("#outPutInfo");
+  generatingElement.innerHTML = `⌛Generating ${instructionsInput.value}...`;
+  generatingElement.classList.add("generating");
 
   let input = document.querySelector(".instructions");
   let text = input.value.trim();

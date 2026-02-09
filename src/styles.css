@@ -16,16 +16,18 @@ aside {
   background-color: #dee5f0;
   border-right: 1px solid rgba(15, 23, 42, 0.25);
 }
-/* #e3e9f4 */
+
 .container {
   text-align: justify;
-  line-height: 1.5;
   color: #000000;
   margin-left: 220px;
   padding-left: 60px;
   width: 100%;
   max-width: 800px;
   align-items: center;
+}
+.generating {
+  margin-top: 80px;
 }
 
 header {
@@ -62,15 +64,6 @@ aside ul {
   font-weight: 500;
   margin-bottom: 10px;
 }
-/* .clear-history-button {
-  margin-top: 480px;
-  padding: 8px 14px;
-  font-size: 15px;
-  color: #100c21;
-  background-color: #ffffff;
-  border: 1px solid rgba(15, 23, 42, 0.5);
-  border-radius: 30px;
-} */
 
 form {
   margin-top: 60px;
