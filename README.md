@@ -1,4 +1,4 @@
-## Jobify
+## 💼Jobify
 
 Jobify is an AI-powered job application assistant that helps users generate simple CVs and cover letters through a clean, chat-style interface.
 
