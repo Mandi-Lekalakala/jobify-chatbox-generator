@@ -35,7 +35,7 @@ The project focuses on user experience, prompt guidance, and frontend logic — 
 - API key is used client-side (for learning purposes)
 
 
-## Future Improvements
+## 📌Future Improvements
 
 - Clickable recent prompts to regenerate content
 - More tailored CV and cover letter templates
