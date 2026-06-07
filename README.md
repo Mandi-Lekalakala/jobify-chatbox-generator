@@ -1,6 +1,6 @@
 # Jobify – AI-Powered CV & Cover Letter Generator
 
-Jobify is an AI-powered job application assistant that helps users generate simple CVs and cover letters through a clean, chat-style interface. Built and inspired by modern AI tools like ChatGPT and Claude.
+Jobify is a desktop AI-powered job application assistant that helps users generate simple CVs and cover letters through a clean, chat-style interface. Built and inspired by modern AI tools like ChatGPT and Claude.
 
 🔗 **Live Site:** https://mandi-lekalakala.github.io/jobify-chatbox-generator/
 
